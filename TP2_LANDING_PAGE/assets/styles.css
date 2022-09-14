@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900 & family= Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600,1,8000;1,8000 ; mostrar=cambiar');
+
+:root{
+    /* Background colors */
+    --background1: #99c725;
+    --background2: #082b30;
+    --primary: #25a2b2;
+
+    /* Text colors */
+    --text-white: #ffffff;
+    --text-greenblue: #082b30;
+       
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Header */
+
+header {
+    background: var(--background1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;  
+}
+
+.logo {
+    height: 95%;
+}
+
+.navbar, 
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 50px;
+}
+
+.navbar-list {
+    gap: 30px;
+}
+
+.navbar-list a {
+    color: var(--text-white);
+    font-size: 14px;
+}
+
+.navbar-list li:first-child > a {
+    color: var(--text-white);
+    font-weight: 600;
+}
