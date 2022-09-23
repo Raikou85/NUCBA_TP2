@@ -3,7 +3,7 @@
 :root{
     /* Background colors */
     --background1: #99c725;
-    --background2: #082b30;
+    --background2: #051f25;
     --primary: #25a2b2;
 
     /* Text colors */
@@ -31,13 +31,13 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 65px;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 40px 0px 40px;
     position: fixed;
     top: 0;  
 }
 
 .logo {
-    height: 95%;
+    height: 100%;
 }
 
 .navbar, 
@@ -64,3 +64,102 @@ header {
     color: var(--text-white);
     font-weight: 600;
 }
+
+/* MAIN */
+
+main {
+    background: var(--background2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+    width: 100%;
+}
+
+/* HERO */ 
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 42px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+}
+
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+}
+
+.buttons-hero a {
+    color: #ffffff;
+    background-color: #99c725;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.buttons-hero { 
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.hero-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-card img {
+    background-position: center;
+    background-size: cover;
+    background: #051f25;
+    border-radius: 15px; 
+}
+
+/* INFO */
+
+#info {
+    margin-top: 30px;
+    padding: 50px 0;
+    /* max-width: 1200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction p {
+    color: var(--background2);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 1200px;
+    padding: 0px 90px;
+}
+
+.introduction span {
+    font-weight: 800;
+}
+
