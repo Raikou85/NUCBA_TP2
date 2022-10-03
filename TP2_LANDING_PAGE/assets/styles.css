@@ -79,12 +79,13 @@ main {
 /* HERO */ 
 
 #hero {
-    background: var(--background2);
     margin-top: 65px;
     padding: 70px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--background2);
+    width: 100%;
 }
 
 .hero-info {
@@ -142,8 +143,8 @@ main {
 
 #info {
     margin-top: 30px;
+    margin-bottom: 30px;
     padding: 50px 0;
-    /* max-width: 1200px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,3 +163,60 @@ main {
     font-weight: 800;
 }
 
+/* Info Cards */
+
+#info-cards {
+    background: var(--background2);
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px
+}
+
+#info-cards h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.info-card {
+    width: 300px;
+    height: 290px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--background2);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #99c725;
+    gap: 20px;
+}
+
+.info-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info-card p {
+    font-weight: lighter;
+}
+
+.icon-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 80px;
+}
