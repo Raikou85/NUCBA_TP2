@@ -205,12 +205,13 @@ main {
 }
 
 .info-card h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .info-card p {
-    font-weight: lighter;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 .icon-card {
@@ -220,3 +221,92 @@ main {
     gap: 40px;
     width: 80px;
 }
+
+/* Contact */
+
+#contact {
+    background: var(--background2);
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+ 
+}
+
+#contact h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 25px;
+}
+
+
+.icon-container {
+    background: #051f25;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.icon-container span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 25px  0 0 0;
+}
+
+.icon-contact {
+    gap: 15px;
+    width: 20px;
+}
+
+.info-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    background: var(--background2);
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+/* Footer */
+
+footer {
+    background: #ffffff;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;    
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--background2);
+}
+
+.logo-azul {
+    height: 70%;
+}
+
